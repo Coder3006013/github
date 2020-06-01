@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="admin-form">
+                <div class="admin-form__header">
+                    <div class="row form-group text-center">
+                        <div class="col-12 col-sm">
+                            <h4>Name</h4>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <h4>Narx</h4>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <h4>Soni</h4>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <h4>Jami</h4>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <h4>Remove</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of .admin-form__header -->
+                <div class="admin-form__main">
+                    <div class="row form-group">
+                        <div class="col-12 col-sm">
+                            <select class="admin-form-select form-control">
+                                <option></option>
+                                <option value="100">olma</option>
+                                <option value="200">olma2</option>
+                                <option value="300">olma3</option>
+                                <option value="400">olma4</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <input type="text" class="admin-form-narx form-control" readonly>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <input type="number" class="admin-form-count form-control" readonly>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <input type="text" class="admin-form-resualt form-control">
+                        </div>
+                        <div class="col-12 col-sm">
+                            <button type="button" class="btn-remove btn btn-danger form-control">x</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of .admin-form__main -->
+                <div class="form-group text-center">
+                    <button type="button" class="btn-add btn btn-success form-control">Add</button>
+                </div>    
+                <div class="admin-form__footer">
+                    <div class="row  text-center align-items-end">
+                        <div class="col-12 col-sm">
+                            <label for="last-resualt">Jami summa: </label>
+                            <input type="text" class="admin-form__cart form-control" id="last-resualt" readonly>
+                        </div>
+                        <div class="col-12 col-sm">
+                            <label for="last-resualt">To'langan summa: </label>
+                            <input type="text" class="admin-form__buy form-control" id="last-resualt">
+                        </div>
+                        <div class="col-12 col-sm">
+                            <input type="submit" class="btn btn-primary form-control" value="sale">
+                        </div>
+                    </div>
+                </div>
+                <!-- End of .admin-form__footer -->
+            </div>
+        </form>
+    </div>
+    <script src="js/jQuery-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
